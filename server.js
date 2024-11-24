@@ -1,5 +1,5 @@
 import express, { json } from 'express';
-import routes from './src/routes/postsRoures.js';
+import routes from './src/routes/postsRoutes.js';
 
 const app = express();
 routes(app)
